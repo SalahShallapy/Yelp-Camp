@@ -57,6 +57,82 @@ In order to review or create a campground, you must have an account. This projec
 
 ## Project Structure
 
+```
+YelpCamp
+│      .gitignore
+│      app.js
+│      middleware.js
+│      package-lock.json
+│      package.json
+│      README.md
+│      schemas.js
+│
+└───cloudinary
+│   index.js
+│
+└───controllers
+│   campgrounds.js
+│   reviews.js
+│   users.js
+│
+└───models
+│   campgrounds.js
+│   reviews.js
+│   users.js
+│
+│
+└───public
+│   │
+│   ├───imgs ----> all images
+│   │
+│   ├───javaScripts
+│   │      clusterMap.js
+│   │      showMaps.js
+│   │      validateForm.js
+│   │
+│   ├───styleSheets
+│   │      app.css
+│   │      home.css
+│   │      stars.css
+│   │
+│
+│
+└───routes
+│   campgrounds.js
+│   reviews.js
+│   users.js
+│
+└───seeds
+│   Cities.js
+│   index.js
+│   seedHelper.js
+│
+└───utils
+│   catchAsync.js
+│   ExpressError.js
+│
+│
+└───views
+│   │
+│   ├───campgorunds
+│   │       edit.ejs
+│   │       index.ejs
+│   │       new.ejs
+│   │       show.ejs
+│   │
+│   ├───layouts
+│   │      boilerplate.ejs
+│   │
+│   ├───partials
+│   │      flash.ejs
+│   │      footer.ejs
+│   │      navbar.ejs
+│   │
+│   ├───users
+│   │      error.ejs
+│   │      home.ejs
+```
+
 ## installation
 
 1. Install [mongodb](https://www.mongodb.com/)
