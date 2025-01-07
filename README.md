@@ -55,6 +55,8 @@ In order to review or create a campground, you must have an account. This projec
 - Search campground by name or location.
 - Sort campgrounds by highest rating, most reviewed, lowest price, or highest price.
 
+## Project Structure
+
 ## installation
 
 1. Install [mongodb](https://www.mongodb.com/)
